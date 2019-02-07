@@ -69,10 +69,22 @@ body {
   background-color: #fff;
 }
 
+.color-fundo{
+  background-color: #002C62;
+}
 .interface{
-  background-color: #005cbf;
   text-align: center;
   color: white;
+  margin-top: 2rem;
+}
+.container{
+margin-left: 30%;
+margin-right: 30%;
+}
+
+
+.borda-interna{
+  
 }
 
 [tabindex="-1"]:focus {
