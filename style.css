@@ -70,22 +70,33 @@ body {
 }
 
 .color-fundo{
-  background-color: #002C62;
+  background-color:rgb(2, 39, 83);
+}
+.video{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
 }
 .interface{
   text-align: center;
+  background-color:#002C62; 
   color: white;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-color: rgb(1, 27, 59);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: 1px 1px 1px 1px black;
+
 }
-.container{
-margin-left: 30%;
-margin-right: 30%;
+.login{
+margin-left: 10%;
+margin-right: 10%;
 }
 
-
-.borda-interna{
-  
-}
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
