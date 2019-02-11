@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Novo HelpDesk da TI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="color-fundo">
+<div class="interface">
+
+<h2>Estamos mudando para melhor atendê-los!</h2>
+
+Agora, qualquer solicitação ao setor de Tecnologia pode ser realizado de qualquer computador.<br><br>
+
+
+
+<header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="C:\Users\marci\Videos\Captures\teste.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+
+          </div>
+        </div>
+      </header>
+      
+<div class="login">
+    <h5>Acesse agora mesmo!</h5>
+<form class="form-signin" role="form" method="post" action="https://ceduc.tomticket.com/helpdesk/checklogin">
+    <input type="hidden" name="id" value="">
+    <input type="hidden" name="ep" value="">
+    <input type="hidden" name="account" value="1812352P04022019025830">
+    <h4 class="form-signin-heading text-center">Login</h4>
+    
+    <input id="inputEmail" type="email" class="form-control login-field" name="login" value="" placeholder="Seu email" required="" autofocus="">
+        <input id="password" type="password" class="form-control" name="password" placeholder="Senha" required="">
+    <br>
+    <button id="btn-charmosa" class="btn btn-lg btn-primary btn-block" type="submit" onclick="preencherForm()" autenticarUsuario()>Entrar</button>
+
+
+<small><p class="text-center"><a href="https://ceduc.tomticket.com/helpdesk/novasenha?account=1812352P04022019025830">Esqueceu sua senha?</a>
+        </p></small> 
+</form>
+<script src="login.js"></script>
+<small><p class="text-center out-form">Não é cadastrado? <a href="https://ceduc.tomticket.com/helpdesk/cadastro?account=1812352P04022019025830&amp;e=4">Clique aqui para cadastrar-se</a>
+</p></small>
+</div>
+</div>
+</body>
+</html>
